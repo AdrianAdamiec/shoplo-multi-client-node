@@ -5,4 +5,4 @@
 # Shoplo Multi API node Client 
 
 This sdk enables node developers to communicate with Shoplo Multi API with an oauth 2 authentication. 
-[More detailed info about api](api.shoplo.io/api/doc/public)
+[More detailed info about api](http://api.shoplo.io/api/doc/public)
