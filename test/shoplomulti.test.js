@@ -2,13 +2,9 @@ describe('Shoplo Multi', () => {
     'use strict';
 
     const expect = require('chai').expect;
-
     const base = require('./base');
     const ShoploMulti = require('..');
 
-    const accessToken   = base.config.accessToken;
-    const secretToken   = base.config.secretToken;
-    const callbackUrl   = base.config.callbackUrl;
     const clientKey     = base.config.clientKey;
     const clientSecret  = base.config.clientSecret;
 
@@ -32,9 +28,7 @@ describe('Shoplo Multi', () => {
         it('should set access and secret token when passed in config', () => {
             const shoploMultiTest = new ShoploMulti(base.config);
 
-            expect(shoploMultiTest.accessToken).to.equal(accessToken);
-            expect(shoploMultiTest.secretToken).to.equal(secretToken);
-            expect(shoploMultiTest.callbackUrl).to.equal(callbackUrl);
+            expect(shoploMultiTest.client).to.be.an('object');
         });
     });
 });
