@@ -1,1 +1,61 @@
-{}
+{
+  "id":10,
+  "title":"Bulb lamp graphite",
+  "quantity":6,
+  "created_at":"2017-08-01T10:33:09+00:00",
+  "updated_at":"2017-08-01T10:33:09+00:00",
+  "images":[
+    {
+      "id":6,
+      "title":"6-26-fsads.png",
+      "src":"https://imageproxy.net/1/display/resize?key=7601c0e93f3a88e36fd37d535a85e12297d527a6&url=https://s3.amazonaws.com/cdn-omni.shoplo.com/files/2106/products/598058e43fafc-6-26-fsads.png",
+      "position":1
+    }
+  ],
+  "variants":[
+    {
+      "id":10,
+      "product_id":10,
+      "title":"Bulb lamp graphite",
+      "sku":"ND-539",
+      "main_image":null,
+      "inventory_quantity":6,
+      "position":0,
+      "barcode":null,
+      "properties":[
+        {
+          "parent_property_id":14,
+          "title":"Size",
+          "value":"Big2"
+        },
+        {
+          "parent_property_id":16,
+          "title":"Color",
+          "value":"Yellow"
+        },
+        {
+          "parent_property_id":18,
+          "title":"Material",
+          "value":"Wood"
+        }
+      ]
+    }
+  ],
+  "variants_properties":[
+    {
+      "id":14,
+      "title":"Size",
+      "position":0
+    },
+    {
+      "id":16,
+      "title":"Color",
+      "position":1
+    },
+    {
+      "id":18,
+      "title":"Material",
+      "position":2
+    }
+  ]
+}

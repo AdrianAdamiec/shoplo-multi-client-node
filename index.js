@@ -62,13 +62,12 @@ class ShoploMultiClient{
      * @returns {string}
      * @private
      */
-    getEndpointUrl(path, query){
+    getEndpointUrl(path){
 
         return url.format({
             pathname: path,
             hostname: this.apiHost,
-            protocol: 'https:',
-            query
+            protocol: 'https:'
         });
     }
 
@@ -119,13 +118,14 @@ class ShoploMultiClient{
      */
     requestOptions(path, params, method)
     {
-        const url = this.getEndpointUrl(path, params);
+        const url = this.getEndpointUrl(path);
 
         return this.client.sign({
             method,
             timeout: this.timeout,
             json: true,
-            url
+            url,
+            params
         });
     }
 

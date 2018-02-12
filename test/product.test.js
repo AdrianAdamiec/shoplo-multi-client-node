@@ -27,4 +27,15 @@ describe('Shoplo Multi product resource', () => {
         return productResource.getProducts()
             .then(rsp => expect(rsp.data).to.deep.equal(output));
     });
+
+    it('gets a product', () => {
+        const output = fixtures.res.get;
+
+        shoploMulti
+            .get('/v1/public/products/10')
+            .reply(200, output);
+
+        return productResource.getProducts(10)
+            .then(rsp => expect(rsp.data).to.deep.equal(output));
+    });
 });
