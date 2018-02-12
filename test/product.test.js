@@ -12,6 +12,11 @@ describe('Shoplo Multi product resource', () => {
     const shopMultiClient = base.shoploMultiClient;
     const productResource = new ProductResource(shopMultiClient);
 
+    it('should return proper product path', () => {
+        expect(ProductResource.getProductPath()).to.equal('/v1/public/products');
+        expect(ProductResource.getProductPath(2)).to.equal('/v1/public/products/2');
+    });
+
     it('gets a products list', () => {
         const output = fixtures.res.list;
 

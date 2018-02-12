@@ -49,4 +49,11 @@ describe('Shoplo Multi client', () => {
         return shopMultiClient.getAccount()
             .then(rsp => expect(rsp.data).to.deep.equal(output));
     });
+
+    it('should generate random state', () => {
+
+        const state = ShoploMulti.generateState();
+        expect(state).to.be.a('string');
+        expect(ShoploMulti.generateState()).to.not.equal(state);
+    });
 });

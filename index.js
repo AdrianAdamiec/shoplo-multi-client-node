@@ -28,7 +28,7 @@ class ShoploMultiClient{
         this.callbackUrl    = options.callbackUrl;
         this.scope          = options.scope;
         this.apiHost        = options.apiHost || 'api.shoplo.io';
-        this.state          = this.generateState();
+        this.state          = ShoploMultiClient.generateState();
         this.timeout        = options.timeout || 15000;
 
         this.oauthClient = new ClientOAuth2({
@@ -50,9 +50,9 @@ class ShoploMultiClient{
     /**
      *
      * @returns {string}
-     * @private
+     * @public
      */
-    generateState()
+    static generateState()
     {
         return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
     }
