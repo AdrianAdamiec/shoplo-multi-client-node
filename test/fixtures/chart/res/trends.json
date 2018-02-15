@@ -1,0 +1,32 @@
+[
+  {
+    "label":"Orders",
+    "value":{
+      "value":0,
+      "type":"number",
+      "unit":null
+    },
+    "trend":0,
+    "progress":0
+  },
+  {
+    "label":"Visits",
+    "value":{
+      "value":24912,
+      "type":"number",
+      "unit":null
+    },
+    "trend":0.092056812204103,
+    "progress":0.7563071131485473
+  },
+  {
+    "label":"Total sales",
+    "value":{
+      "value":null,
+      "type":"money",
+      "unit":"PLN"
+    },
+    "trend":0,
+    "progress":0
+  }
+]

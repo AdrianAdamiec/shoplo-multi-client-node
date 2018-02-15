@@ -1,0 +1,22 @@
+{
+  "email": "test@test.com",
+  "verified_email": true,
+  "accepts_marketing": true,
+  "phone": "555555555",
+  "first_name": "Jan",
+  "last_name": "Kowalski",
+  "currency": "PLN",
+  "addresses": [{
+    "address1": "Warszawska 1",
+    "city": "Warszawa",
+    "company": "test",
+    "country_code": "pl",
+    "first_name": "Test",
+    "last_name": "Test",
+    "phone": "123123123",
+    "province": "Test",
+    "zip": "02-259",
+    "tax_id": "1234448232",
+    "is_default": true
+  }]
+}

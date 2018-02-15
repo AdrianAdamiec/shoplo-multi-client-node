@@ -1,0 +1,76 @@
+{
+  "items":[
+    {
+      "id":"2",
+      "title":"Shoplo",
+      "description":"Shoplo is a quick and easy platform to sell your products on your own, independent web store.",
+      "url":"http://shoplo.com",
+      "logo":"https://assets.shoplo.io/angular-app-ng2/images/channels/channel-shoplo.png",
+      "logo_small":"https://assets.shoplo.io/angular-app-ng2/images/avatar-shoplo.png"
+    },
+    {
+      "id":"4",
+      "title":"Etsy",
+      "description":"Etsy is a global community of 30 million buyers and creative businesses. Etsy specialises in selling handmade or vintage items and supplies.",
+      "url":"http://etsy.com",
+      "logo":"https://assets.shoplo.io/angular-app-ng2/images/channels/channel-etsy.png",
+      "logo_small":"https://assets.shoplo.io/angular-app-ng2/images/avatar-etsy.png"
+    },
+    {
+      "id":"6",
+      "title":"Shopify",
+      "description":"Shopify is a cloud-based commerce platform designed for small and medium-sized businesses.",
+      "url":"http://shopify.com",
+      "logo":"https://assets.shoplo.io/angular-app-ng2/images/channels/channel-shopify.png",
+      "logo_small":"https://assets.shoplo.io/angular-app-ng2/images/avatar-shopify.png"
+    },
+    {
+      "id":"8",
+      "title":"Woocommerce",
+      "description":"Woo Commerce is a free e-commerce plugin for WordPress. It's designed for small to large-sized online merchants. ",
+      "url":"",
+      "logo":"https://assets.shoplo.io/angular-app-ng2/images/channels/channel-woocommerce.png",
+      "logo_small":"https://assets.shoplo.io/angular-app-ng2/images/avatar-woocommerce.png"
+    },
+    {
+      "id":"10",
+      "title":"Dawanda",
+      "description":"Dawanda is one of the biggest European marketplaces for unique, handmade and customizable products.",
+      "url":"http://dawanda.com",
+      "logo":"https://assets.shoplo.io/angular-app-ng2/images/channels/channel-dawanda.png",
+      "logo_small":"https://assets.shoplo.io/angular-app-ng2/images/avatar-dawanda.png"
+    },
+    {
+      "id":"12",
+      "title":"Showroom",
+      "description":"SHOWROOM is the biggest fashion marketplace with curated products from independent designers from Poland.",
+      "url":"http://showroom.pl",
+      "logo":"https://assets.shoplo.io/angular-app-ng2/images/channels/channel-showroom.png",
+      "logo_small":"https://assets.shoplo.io/angular-app-ng2/images/avatar-showroom.png"
+    },
+    {
+      "id":"14",
+      "title":"Amazon",
+      "description":"Amazon is the biggest marketplace in the USA and one of the biggest worldwide. It enables you to sell a wide range of products, from fashion and DIY through to electronics and food. ",
+      "url":"http://amazon.com",
+      "logo":"https://assets.shoplo.io/angular-app-ng2/images/channels/channel-amazon.png",
+      "logo_small":"https://assets.shoplo.io/angular-app-ng2/images/avatar-amazon.png"
+    },
+    {
+      "id":"16",
+      "title":"Ebay",
+      "description":"Buy and sell electronics, cars, fashion apparel, collectibles, sporting goods, digital cameras, baby items, coupons, and everything else on eBay, the world’s online marketplace.",
+      "url":"http://ebay.pl",
+      "logo":"https://assets.shoplo.io/angular-app-ng2/images/channels/channel-ebay.png",
+      "logo_small":"https://assets.shoplo.io/angular-app-ng2/images/avatar-ebay.png"
+    },
+    {
+      "id":"18",
+      "title":"Bonanza",
+      "description":"Bonanza is an online marketplace that empowers entrepreneurs to create a sustainable online business with ease.",
+      "url":"http://bonanza.com",
+      "logo":"https://assets.shoplo.io/angular-app-ng2/images/channels/channel-bonanza.png",
+      "logo_small":"https://assets.shoplo.io"
+    }
+  ]
+}

@@ -1,1 +1,23 @@
-{}
+{
+  "id":"10",
+  "title":"Update test 2",
+  "img_url":"https://imageproxy.net/1/display/resize?key=7601c0e93f3a88e36fd37d535a85e12297d527a6&url=https://s3.amazonaws.com/cdn-omni.shoplo.com/files/2106/products/598058e43fafc-6-26-fsads.png",
+  "channels_count":0,
+  "quantity":6,
+  "created_at":"2017-08-01T10:33:09+00:00",
+  "updated_at":"2018-02-14T07:13:07+00:00",
+  "_links":{
+    "self":{
+      "href":"/v1/products/10"
+    },
+    "details":{
+      "href":"/v1/products/10/details"
+    },
+    "variants":{
+      "href":"/v1/products/10/variants"
+    },
+    "images":{
+      "href":"/v1/products/10/images"
+    }
+  }
+}

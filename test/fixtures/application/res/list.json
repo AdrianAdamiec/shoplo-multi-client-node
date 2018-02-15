@@ -1,0 +1,327 @@
+{
+  "page":1,
+  "limit":50,
+  "pages":1,
+  "total":6,
+  "items":[
+    {
+      "id":2,
+      "name":"ENadawca",
+      "url":"https://enadawca.shoploapp.net",
+      "support_email":"help@shoplo.com",
+      "logo_image_url":"https://imageproxy.net/1/display/resize?key=451476130776048616f3bb3e7c6ff2cf5ebcf081&url=https://s3.amazonaws.com/cdn-omni.shoplo.com/application/2/logo/5a4f9070945a8-5a4f8ee0238d8-5922eb056a3ca-58fddb4a81bef-58ef9b808205b-fwOt29tQYyr8GBTXIwAD",
+      "banner_image_url":"https://imageproxy.net/1/display/resize?key=d49a74366132b96b0a51dd64f46e5246a5605f5c&url=https://s3.amazonaws.com/cdn-omni.shoplo.com/application/2/banner/5a4f9071cc44e-5a4f8ee175e76-5922eb06c70e6-58fddb4b6e1c6-58ef9b817906a-MbD4yeWQP2vKbTCwsVRG",
+      "links":{
+        "product_list_link":{
+          "links":[
+
+          ]
+        },
+        "product_page_link":{
+          "links":[
+
+          ]
+        },
+        "order_list_link":{
+          "links":[
+
+          ]
+        },
+        "order_page_link":{
+          "links":[
+
+          ]
+        },
+        "customer_list_link":{
+          "links":[
+
+          ]
+        },
+        "customer_page_link":{
+          "links":[
+
+          ]
+        }
+      },
+      "permissions":{
+        "product_read":true,
+        "product_write":true,
+        "order_read":true,
+        "order_write":true,
+        "customer_read":true,
+        "customer_write":true
+      }
+    },
+    {
+      "id":14,
+      "name":"DHL",
+      "url":"https://dhl.shoploapp.net",
+      "support_email":"adrian.adamiec@shoplo.pl",
+      "logo_image_url":"https://imageproxy.net/1/display/resize?key=9301dfaef4838dde72c133614f2b7e60f2ef6539&url=https://s3.amazonaws.com/cdn-omni.shoplo.com/application/14/logo/5a4f9057cc1f9-5a215440095a7-5922eb231f0db-58fdf834654ec-Mj5TrmES7SmpWyN6TLVR",
+      "banner_image_url":"https://imageproxy.net/1/display/resize?key=5a05b1631c65925f7f31df0d7c095c86a79a0a6d&url=https://s3.amazonaws.com/cdn-omni.shoplo.com/application/14/banner/5a4f9059157da-5a2154414778f-5922eb245bb45-58fdf83544d93-pW4lgL99THelMYTpFYfZ",
+      "links":{
+        "product_list_link":{
+          "links":[
+
+          ]
+        },
+        "product_page_link":{
+          "links":[
+
+          ]
+        },
+        "order_list_link":{
+          "links":[
+
+          ]
+        },
+        "order_page_link":{
+          "links":[
+            {
+              "url":"https://dhl.shoploapp.net/package/",
+              "default_name":"Fulfil order"
+            },
+            {
+              "url":"https://dhl.shoploapp.net/label/",
+              "default_name":"Download waybill"
+            }
+          ]
+        },
+        "customer_list_link":{
+          "links":[
+
+          ]
+        },
+        "customer_page_link":{
+          "links":[
+
+          ]
+        }
+      },
+      "permissions":{
+        "product_read":true,
+        "product_write":true,
+        "order_read":true,
+        "order_write":true,
+        "customer_read":true,
+        "customer_write":true
+      }
+    },
+    {
+      "id":18,
+      "name":"UPS",
+      "url":"https://ups.shoploapp.net",
+      "support_email":"adrian.adamiec@shoplo.pl",
+      "logo_image_url":"https://imageproxy.net/1/display/resize?key=d96b6b9c02d4040d35c5fab7d89943e3b1cedda6&url=https://s3.amazonaws.com/cdn-omni.shoplo.com/application/18/logo/5a44ffeae57fa-5a3bac30ddba1-5a2fdd9a6d317-5a27d878debc6-5a214fd4ef81a-5a20288e67838-5922eb370b480-58fee0c3ae1af-cabL2E7R4uzONY8vcjcr",
+      "banner_image_url":"https://imageproxy.net/1/display/resize?key=39b5648b7c28fe8a658f4ead615fb11154c19d2c&url=https://s3.amazonaws.com/cdn-omni.shoplo.com/application/18/banner/5a44ffec6aea0-5a3bac31e69eb-5a2fdd9b646e5-5a27d879ce82f-5a214fd63932c-5a20288fbe421-5922eb3862936-58fee0c4c03aa-1FWfA44QseaVPXcZQMnw",
+      "links":{
+        "product_list_link":{
+          "links":[
+
+          ]
+        },
+        "product_page_link":{
+          "links":[
+
+          ]
+        },
+        "order_list_link":{
+          "links":[
+            {
+              "url":"https://ups.shoploapp.net/package/",
+              "default_name":"Fulfil order"
+            },
+            {
+              "url":"https://ups.shoploapp.net/label/",
+              "default_name":"Download waybill"
+            }
+          ]
+        },
+        "order_page_link":{
+          "links":[
+            {
+              "url":"https://ups.shoploapp.net/package/",
+              "default_name":"Fulfil order"
+            }
+          ]
+        },
+        "customer_list_link":{
+          "links":[
+
+          ]
+        },
+        "customer_page_link":{
+          "links":[
+
+          ]
+        }
+      },
+      "permissions":{
+        "product_read":true,
+        "product_write":true,
+        "order_read":true,
+        "order_write":true,
+        "customer_read":true,
+        "customer_write":true
+      }
+    },
+    {
+      "id":22,
+      "name":"Paczkomaty",
+      "url":"https://paczkomaty.shoploapp.net",
+      "support_email":"adrian.adamiec@shoplo.pl",
+      "logo_image_url":"https://imageproxy.net/1/display/resize?key=376e2143a5226f981b649dee142f81d6c8b5fbf7&url=https://s3.amazonaws.com/cdn-omni.shoplo.com/application/22/logo/5a548fb0f06c8-5a251c73200d7-59103e0df256c-RPgMNParRr2r9CbKABXU",
+      "banner_image_url":"https://imageproxy.net/1/display/resize?key=3a67f7ff6da07ee49d290552ca481041baad83ef&url=https://s3.amazonaws.com/cdn-omni.shoplo.com/application/22/banner/5a548fb24cb9f-5a251c746b43f-59103e0ea3f94-BDC0hvKPSuaXHCUCgM6G",
+      "links":{
+        "product_list_link":{
+          "links":[
+
+          ]
+        },
+        "product_page_link":{
+          "links":[
+
+          ]
+        },
+        "order_list_link":{
+          "links":[
+
+          ]
+        },
+        "order_page_link":{
+          "links":[
+
+          ]
+        },
+        "customer_list_link":{
+          "links":[
+
+          ]
+        },
+        "customer_page_link":{
+          "links":[
+
+          ]
+        }
+      },
+      "permissions":{
+        "product_read":false,
+        "product_write":false,
+        "order_read":true,
+        "order_write":true,
+        "customer_read":true,
+        "customer_write":false
+      }
+    },
+    {
+      "id":26,
+      "name":"InPost Trucker",
+      "url":"https://inposttrucker.shoploapp.net",
+      "support_email":"adrian.adamiec@shoplo.pl",
+      "logo_image_url":"https://imageproxy.net/1/display/resize?key=2d6ff2557f455ccbcd4080ffc6799b36c93143d2&url=https://s3.amazonaws.com/cdn-omni.shoplo.com/application/26/logo/5a4f8f7438a0f-5a2511c650c83-591045e84a820-gitNnYdyRYSvgB4OOf12",
+      "banner_image_url":"https://imageproxy.net/1/display/resize?key=6eb81c695f1f91b5d1017ba8fe383fccbe33ffb2&url=https://s3.amazonaws.com/cdn-omni.shoplo.com/application/26/banner/5a4f8f75904ab-5a2511c7a4713-591045e8ea4a7-dXtgJSpTUCUkSf6XSLfw",
+      "links":{
+        "product_list_link":{
+          "links":[
+
+          ]
+        },
+        "product_page_link":{
+          "links":[
+
+          ]
+        },
+        "order_list_link":{
+          "links":[
+
+          ]
+        },
+        "order_page_link":{
+          "links":[
+
+          ]
+        },
+        "customer_list_link":{
+          "links":[
+
+          ]
+        },
+        "customer_page_link":{
+          "links":[
+
+          ]
+        }
+      },
+      "permissions":{
+        "product_read":false,
+        "product_write":false,
+        "order_read":true,
+        "order_write":true,
+        "customer_read":true,
+        "customer_write":false
+      }
+    },
+    {
+      "id":30,
+      "name":"DPD",
+      "url":"https://dpd.shoploapp.net",
+      "support_email":"adrian.adamiec@shoplo.pl",
+      "logo_image_url":"https://imageproxy.net/1/display/resize?key=fb47a36e27600c0b613e7a363ab667e84a7a64f3&url=https://s3.amazonaws.com/cdn-omni.shoplo.com/application/30/logo/5a548f2b6e806-aCeAO0TBSZOZwPxocDfA",
+      "banner_image_url":"https://imageproxy.net/1/display/resize?key=0aa2d1c17ff1cd17d5256d9d2994e5b144e1f8b5&url=https://s3.amazonaws.com/cdn-omni.shoplo.com/application/30/banner/5a548f2c4e306-6CKGRs4TqbDQZKKPBSSA",
+      "links":{
+        "product_list_link":{
+          "links":[
+
+          ]
+        },
+        "product_page_link":{
+          "links":[
+
+          ]
+        },
+        "order_list_link":{
+          "links":[
+
+          ]
+        },
+        "order_page_link":{
+          "links":[
+            {
+              "url":"https://dpd.shoploapp.net/package/?order_id=",
+              "default_name":"Fulfil order"
+            }
+          ]
+        },
+        "customer_list_link":{
+          "links":[
+
+          ]
+        },
+        "customer_page_link":{
+          "links":[
+
+          ]
+        }
+      },
+      "permissions":{
+        "product_read":false,
+        "product_write":false,
+        "order_read":true,
+        "order_write":true,
+        "customer_read":true,
+        "customer_write":false
+      }
+    }
+  ],
+  "_links":{
+    "self":{
+      "href":"/v1/applications?page=1&limit=50"
+    },
+    "first":{
+      "href":"/v1/applications?page=1&limit=50"
+    },
+    "last":{
+      "href":"/v1/applications?page=1&limit=50"
+    }
+  }
+}

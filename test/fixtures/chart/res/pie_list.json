@@ -1,0 +1,18 @@
+[
+  {
+    "percent":0,
+    "label_value":{
+      "label":{
+        "shop_channel_id":2266,
+        "name":"check2",
+        "channel_name":"Shoplo",
+        "id_name":"shoplo"
+      },
+      "value":{
+        "value":0,
+        "currency":"PLN",
+        "formatted":"PLN0.00"
+      }
+    }
+  }
+]

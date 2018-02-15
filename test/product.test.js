@@ -1,7 +1,6 @@
 describe('Shoplo Multi product resource', () => {
     'use strict';
 
-    // const qs = require('qs');
     const expect = require('chai').expect;
 
     const fixtures = require('./fixtures/product');
@@ -36,6 +35,18 @@ describe('Shoplo Multi product resource', () => {
             .reply(200, output);
 
         return productResource.getProducts(10)
+            .then(rsp => expect(rsp.data).to.deep.equal(output));
+    });
+
+    it('updates a product', () => {
+        const input = fixtures.req.update;
+        const output = fixtures.res.update;
+
+        shoploMulti
+            .put('/v1/public/products/10', input)
+            .reply(200, output);
+
+        return productResource.updateProduct(10, input)
             .then(rsp => expect(rsp.data).to.deep.equal(output));
     });
 });
