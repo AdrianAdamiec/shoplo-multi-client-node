@@ -1,0 +1,24 @@
+{
+  "id":"4",
+  "type":"text",
+  "topic":"channel/customers/import",
+  "status":"read",
+  "data":{
+    "type":"text",
+    "shop_channel_id":2266,
+    "channel_title":"Shoplo",
+    "shop_channel_title":"check2",
+    "all_count":1,
+    "imported_count":1,
+    "errors_count":0,
+    "topic":"channel/customers/import"
+  },
+  "section":"product",
+  "show_on_sidebar":true,
+  "updated_at":"2017-08-01T10:33:16+00:00",
+  "_links":{
+    "self":{
+      "href":"/v1/notifications/4"
+    }
+  }
+}
