@@ -49,4 +49,14 @@ describe('Shoplo Multi order resource', () => {
         return orderResource.updateOrder(18, input)
             .then(rsp => expect(rsp.data).to.deep.equal(output));
     });
+
+    it('deletes a order', () => {
+
+        shoploMulti
+            .delete('/v1/public/orders/18')
+            .reply(200, []);
+
+        return orderResource.deleteOrder(18)
+            .then(rsp => expect(rsp.data).to.deep.equal([]));
+    });
 });
