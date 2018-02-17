@@ -18,8 +18,23 @@ class OrderResource {
         return '/v1/public/orders';
     }
 
+    static getOrderTimelinePath(id) {
+        return `/v1/public/orders/${id}/timeline`;
+    }
+
+    static getOrderFulfillmentPath(orderId, fulfillmentId) {
+        if (fulfillmentId) {
+            return `/v1/public/orders/${orderId}/fulfillments/${fulfillmentId}`;
+        }
+        return `/v1/public/orders/${orderId}/fulfillments`;
+    }
+
     getOrders(id, params){
         return this.shoploMultiClient.get(OrderResource.getOrderPath(id), params);
+    }
+
+    getOrderTimeline(id, params){
+        return this.shoploMultiClient.get(OrderResource.getOrderTimelinePath(id), params);
     }
 
     updateOrder(id, order){
@@ -28,6 +43,18 @@ class OrderResource {
 
     deleteOrder(id){
         return this.shoploMultiClient.delete(OrderResource.getOrderPath(id));
+    }
+
+    createOrderFulfillment(orderId, orderFulfillment){
+        return this.shoploMultiClient.create(OrderResource.getOrderFulfillmentPath(orderId, null), orderFulfillment);
+    }
+
+    updateOrderFulfillment(orderId, fulfillmentId, orderFulfillment){
+        return this.shoploMultiClient.update(OrderResource.getOrderFulfillmentPath(orderId, fulfillmentId), orderFulfillment);
+    }
+
+    deleteOrderFulfillment(orderId, fulfillmentId){
+        return this.shoploMultiClient.delete(OrderResource.getOrderFulfillmentPath(orderId, fulfillmentId));
     }
 }
 

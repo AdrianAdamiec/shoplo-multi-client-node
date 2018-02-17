@@ -1,0 +1,7 @@
+{
+  "tracking_company": "DPD",
+  "tracking_numbers": ["123456789"],
+  "tracking_urls": ["https://tracktrace.dpd.com.pl/EN/parcelDetails?typ=1&p1=123456789"],
+  "tracking_data": [],
+  "status": "fulfilled"
+}
