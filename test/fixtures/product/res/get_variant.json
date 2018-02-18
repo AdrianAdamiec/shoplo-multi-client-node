@@ -1,0 +1,27 @@
+{
+  "id":10,
+  "product_id":10,
+  "title":"Update test 2",
+  "sku":"ND-539",
+  "main_image":null,
+  "inventory_quantity":6,
+  "position":0,
+  "barcode":null,
+  "properties":[
+    {
+      "parent_property_id":14,
+      "title":"Size",
+      "value":"Big2"
+    },
+    {
+      "parent_property_id":16,
+      "title":"Color",
+      "value":"Yellow"
+    },
+    {
+      "parent_property_id":18,
+      "title":"Material",
+      "value":"Wood"
+    }
+  ]
+}
