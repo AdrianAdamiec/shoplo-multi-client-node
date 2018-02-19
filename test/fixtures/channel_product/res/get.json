@@ -1,0 +1,87 @@
+{
+  "id":10,
+  "product_id":10,
+  "is_merged":true,
+  "is_online":true,
+  "title":"Bulb lamp graphite",
+  "lowest_pricing":{
+    "type":"minimal_prices",
+    "prices":[
+      {
+        "type":"regular_variant_price",
+        "context":"variant:10",
+        "current":{
+          "amount":48000,
+          "currency":{
+            "name":"PLN"
+          }
+        },
+        "regular":{
+          "amount":48000,
+          "currency":{
+            "name":"PLN"
+          }
+        }
+      }
+    ]
+  },
+  "status":"active",
+  "short_description":"",
+  "description":"",
+  "width":0,
+  "height":0,
+  "depth":0,
+  "diameter":0,
+  "measure_unit":"",
+  "visibility":true,
+  "created_at":"2017-08-01T10:33:09+00:00",
+  "updated_at":"2018-02-18T20:18:29+00:00",
+  "channel_details":{
+    "sku":null,
+    "title":"Bulb lamp graphite",
+    "description":"",
+    "url":"http://check2.shoplo.com/bulb-lamp-graphite",
+    "status":"visible",
+    "data":{
+      "short_description":"",
+      "url":"bulb-lamp-graphite",
+      "width":"0",
+      "height":"0",
+      "depth":"0",
+      "diameter":"0",
+      "tax":"23",
+      "vendor":null,
+      "tags":[
+
+      ],
+      "metadata":{
+        "meta_title":null,
+        "meta_description":null,
+        "meta_keywords":null
+      }
+    }
+  },
+  "tags":[
+    ""
+  ],
+  "external_product_id":"6",
+  "shop_channel_id":2266,
+  "channel_id":2,
+  "shop_channel":{
+    "id":2266,
+    "external_id":"48436",
+    "channel_type":2,
+    "channel_id_name":"shoplo",
+    "channel_title":"Shoplo",
+    "shop_channel_title":"check2",
+    "last_time_checked":"2018-02-18T20:18:29+00:00",
+    "currency_code":"PLN",
+    "currency_name":"Polish Zloty",
+    "locale":"pl_PL",
+    "language_name":"Polish (Poland)",
+    "channel_logo":"https://assets.shoplo.io/angular-app-ng2/images/channels/channel-shoplo.png",
+    "channel_logo_small":"https://assets.shoplo.io/angular-app-ng2/images/avatar-shoplo.png",
+    "channel_url":"http://shoplo.com",
+    "shop_channel_url":"http://check2.shoplo.com"
+  }
+}

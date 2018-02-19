@@ -32,6 +32,10 @@ class ProductResource {
         return `/v1/public/products/${productId}/variants`;
     }
 
+    static getProductVariantsPropertiesPath(productId) {
+        return `/v1/public/products/${productId}/variants-properties`;
+    }
+
     getProducts(productId, params){
         return this.shoploMultiClient.get(ProductResource.getProductPath(productId), params);
     }
@@ -66,6 +70,14 @@ class ProductResource {
 
     deleteProductVariant(productId, variantId){
         return this.shoploMultiClient.delete(ProductResource.getProductVariantsPath(productId, variantId));
+    }
+
+    getProductVariantsProperties(productId, params){
+        return this.shoploMultiClient.get(ProductResource.getProductVariantsPropertiesPath(productId), params);
+    }
+
+    updateProductVariantsProperties(productId, property){
+        return this.shoploMultiClient.update(ProductResource.getProductVariantsPropertiesPath(productId), property);
     }
 }
 

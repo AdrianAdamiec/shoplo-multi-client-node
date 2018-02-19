@@ -1,0 +1,25 @@
+{
+  "items":[
+    {
+      "id":14,
+      "title":"Size",
+      "values":[
+        "Big2"
+      ]
+    },
+    {
+      "id":16,
+      "title":"Color",
+      "values":[
+        "Yellow"
+      ]
+    },
+    {
+      "id":18,
+      "title":"Material",
+      "values":[
+        "Wood"
+      ]
+    }
+  ]
+}

@@ -152,6 +152,14 @@ class ShoploMultiClient{
         return axios.request(options);
     }
 
+    patch(path, content){
+
+        const options = this.requestOptions(path, null, 'patch');
+        options.data = content;
+
+        return axios.request(options);
+    }
+
     delete(path){
 
         const options = this.requestOptions(path, null, 'delete');

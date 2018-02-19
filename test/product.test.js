@@ -18,6 +18,7 @@ describe('Shoplo Multi product resource', () => {
         expect(ProductResource.getProductImagesPath(2, 12)).to.equal('/v1/public/products/2/images/12');
         expect(ProductResource.getProductVariantsPath(2, null)).to.equal('/v1/public/products/2/variants');
         expect(ProductResource.getProductVariantsPath(2, 44)).to.equal('/v1/public/products/2/variants/44');
+        expect(ProductResource.getProductVariantsPropertiesPath(2)).to.equal('/v1/public/products/2/variants-properties');
     });
 
     it('gets a products list', () => {
@@ -145,4 +146,26 @@ describe('Shoplo Multi product resource', () => {
             .then(rsp => expect(rsp.data).to.deep.equal(output));
     });
 
+    it('gets a product variant properties', () => {
+        const output = fixtures.res.list_properties;
+
+        shoploMulti
+            .get('/v1/public/products/10/variants-properties')
+            .reply(200, output);
+
+        return productResource.getProductVariantsProperties(10)
+            .then(rsp => expect(rsp.data).to.deep.equal(output));
+    });
+
+    it('updates product variant properties', () => {
+        const input = fixtures.req.update_properties;
+        const output = {};
+
+        shoploMulti
+            .put('/v1/public/products/10/variants-properties', input)
+            .reply(201, output);
+
+        return productResource.updateProductVariantsProperties(10, input)
+            .then(rsp => expect(rsp.data).to.deep.equal(output));
+    });
 });

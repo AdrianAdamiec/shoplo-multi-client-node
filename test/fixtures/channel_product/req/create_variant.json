@@ -1,0 +1,26 @@
+{
+  "product_id":10,
+  "title":"create variant",
+  "sku":"create-variant",
+  "main_image":null,
+  "inventory_quantity":7,
+  "position":0,
+  "barcode":null,
+  "properties":[
+    {
+      "parent_property_id":14,
+      "title":"Size",
+      "value":"XL"
+    },
+    {
+      "parent_property_id":16,
+      "title":"Color",
+      "value":"Red"
+    },
+    {
+      "parent_property_id":18,
+      "title":"Material",
+      "value":"Metal"
+    }
+  ]
+}

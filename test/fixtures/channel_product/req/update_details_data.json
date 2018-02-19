@@ -1,0 +1,21 @@
+{
+  "title": "Bulb lamp metal",
+  "data": {
+    "short_description":"lorem ipsum",
+    "url":"bulb-lamp-graphite",
+    "width":"5",
+    "height":"5",
+    "depth":"5",
+    "diameter":"5",
+    "tax":"23",
+    "vendor":null,
+    "tags":[
+      "test"
+    ],
+    "metadata":{
+      "meta_title":null,
+      "meta_description":null,
+      "meta_keywords":null
+    }
+  }
+}
