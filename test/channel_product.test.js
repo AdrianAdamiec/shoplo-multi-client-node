@@ -15,6 +15,11 @@ describe('Shoplo Multi channel product resource', () => {
         expect(ChannelProductResource.getChannelProductPath(2266)).to.equal('/v1/public/channel/2266/products');
         expect(ChannelProductResource.getChannelProductPath(2266, 12)).to.equal('/v1/public/channel/2266/products/12');
         expect(ChannelProductResource.getChannelProductDetailsPath(2266, 12)).to.equal('/v1/public/channel/2266/products/12/channel-details');
+        expect(ChannelProductResource.getChannelProductVariantsPath(10)).to.equal('/v1/public/channel/products/10/variants');
+        expect(ChannelProductResource.getChannelProductVariantsPath(10, 10)).to.equal('/v1/public/channel/products/10/variants/10');
+        expect(ChannelProductResource.getChannelProductImagesPath(10)).to.equal('/v1/public/channel/products/10/images');
+        expect(ChannelProductResource.getChannelProductImagesPath(10, 56)).to.equal('/v1/public/channel/products/10/images/56');
+        expect(ChannelProductResource.getChannelProductImageMovePath(10)).to.equal('/v1/public/channel/products/10/images/product-image');
     });
 
     it('gets channel products list', () => {
