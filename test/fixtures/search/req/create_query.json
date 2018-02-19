@@ -1,0 +1,5 @@
+{
+  "name": "test",
+  "type": "global",
+  "query": [{"search_phrase":{"phrase":"lorem ipsum"}}]
+}
