@@ -1,0 +1,11 @@
+{
+  "id":2,
+  "name":"TYEOVBG2",
+  "is_enabled":false,
+  "discount":{
+    "type":"percent",
+    "value":{
+      "value":0.15
+    }
+  }
+}
