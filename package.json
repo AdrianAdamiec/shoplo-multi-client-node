@@ -1,7 +1,7 @@
 {
   "name": "shoplo-multi-client",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shoplo Multi API client with oauth 2 authorization",
   "main": "index.js",
   "directories": {
     "test": "test"
