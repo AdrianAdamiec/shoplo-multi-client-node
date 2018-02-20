@@ -22,7 +22,7 @@ npm install --save shoplo-multi-client
 - application
 - category
 - channel
-- channel_productstomer
+- channel_products
 - chart
 - customer
 - form
